@@ -1,0 +1,47 @@
+/*
+1) header, 3 colunas, footer
+2) Colunas de tamanho igual
+3) Rodapé fixo
+4) Conteúdo primeiro no HTML
+5) Marcação mínima
+*/
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    height: 500px;
+    width: 200px;
+}
+
+.box--lvl2 {
+    background-color: rebeccapurple;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+.flex-total-centered {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    background-color: #157bad;
+}
+
+.green {
+    background-color: #3cc368;
+}
+
+.yellow {
+    background-color: #f5a600;
+}
+
+.red {
+    background-color: #ec5840;
+}
+

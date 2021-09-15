@@ -1,0 +1,49 @@
+/*
+1) header, 3 colunas, footer
+2) Colunas de tamanho igual
+3) Rodapé fixo
+4) Conteúdo primeiro no HTML
+5) Marcação mínima
+*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    grid-gap: 0.5rem;
+}
+
+.card {
+    padding: 0;
+    text-align: left;
+    width: 250px;
+}
+
+.card__content {
+    padding: 0 20px;
+}
+
+.blue {
+    background-color: #157bad;
+}
+
+.green {
+    background-color: #3cc368;
+}
+
+.yellow {
+    background-color: #f5a600;
+}
+
+.red {
+    background-color: #ec5840;
+}
+
+@media (min-width: 56.25em) { /* 900px */
+    .content {
+        flex-direction: row;    
+    }
+    
+    .sidebar {
+        order: -1;
+    }
+}
